@@ -29,14 +29,17 @@
         </mxCell>
         <mxCell id="aFz14AopOHoSZA2ScoIg-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-80" y="320" as="sourcePoint" />
-            <mxPoint x="60" y="320" as="targetPoint" />
+            <mxPoint x="-216" y="384.40999999999997" as="sourcePoint" />
+            <mxPoint x="-76" y="384.40999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aFz14AopOHoSZA2ScoIg-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;子类&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFz14AopOHoSZA2ScoIg-12">
           <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aFz14AopOHoSZA2ScoIg-14" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;SimpleGoalChecker&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="310" width="596" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
