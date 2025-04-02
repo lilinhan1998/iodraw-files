@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.7.17">
   <diagram name="第 1 页" id="tff7HQ_WmHDC0ZlMoCYw">
-    <mxGraphModel dx="2776" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,8 +43,8 @@
             <mxPoint x="10" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="01SrSEuu2r-TH4prvu8M-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="01SrSEuu2r-TH4prvu8M-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="730" width="640" height="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
