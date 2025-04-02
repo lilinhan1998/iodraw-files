@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lgQs_hMFqlDMz63xNxO1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="lgQs_hMFqlDMz63xNxO1-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;bt_action_node BtActionNode类&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;C7Ens_aQ41u7HcR4j1Ol&quot;&gt;1、构造函数&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;C7Ens_aQ41u7HcR4j1Ol&quot;&gt;1.1、从黑板中拿到ros2节点&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;C7Ens_aQ41u7HcR4j1Ol&quot;&gt;node_ = config().blackboard-&amp;gt;template get&amp;lt;rclcpp::Node::SharedPtr&amp;gt;(&quot;node&quot;);&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1080" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
