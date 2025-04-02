@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.7.17">
   <diagram name="第 1 页" id="tff7HQ_WmHDC0ZlMoCYw">
-    <mxGraphModel dx="2215" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2711" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,15 +37,15 @@
           <mxGeometry x="-710" y="240" width="640" height="380" as="geometry" />
         </mxCell>
         <mxCell id="01SrSEuu2r-TH4prvu8M-7" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;loadBehaviorTree函数&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;传入参数：行为树XML文件名称/路径，bt_xml_filename&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;1、检查行为树XML文件/路径的合法性&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;2、创建行为树实例&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;// &lt;font color=&quot;#e01b24&quot;&gt;创建行为树实例，此时blackboard_stack中至少有一块根黑板blackboard_&lt;/font&gt;&lt;br&gt;tree_ = bt_-&amp;gt;createTreeFromText(xml_string, blackboard_);&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;// &lt;font color=&quot;#e01b24&quot;&gt;确保行为树的所有层级均能直接访问必要的全局配置&lt;/font&gt;&lt;br&gt;for (auto &amp;amp; blackboard : tree_.blackboard_stack) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; // 这些参数均是全局性参数，需要在所有作用域中可访问&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; blackboard-&amp;gt;set&amp;lt;rclcpp::Node::SharedPtr&amp;gt;(&quot;node&quot;, client_node_);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; blackboard-&amp;gt;set&amp;lt;std::chrono::milliseconds&amp;gt;(&quot;server_timeout&quot;, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;default_server_timeout_);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; blackboard-&amp;gt;set&amp;lt;std::chrono::milliseconds&amp;gt;(&quot;bt_loop_duration&quot;, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bt_loop_duration_);&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;3、启用日志监视器&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;topic_logger_ = std::make_unique&amp;lt;RosTopicLogger&amp;gt;(client_node_, tree_);&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="240" width="600" height="430" as="geometry" />
+          <mxGeometry x="1720" y="1100" width="730" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="01SrSEuu2r-TH4prvu8M-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="01SrSEuu2r-TH4prvu8M-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="01SrSEuu2r-TH4prvu8M-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="886" as="sourcePoint" />
             <mxPoint x="1739.7999999999993" y="495.8299999999999" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1680" y="886" />
-              <mxPoint x="1680" y="496" />
+              <mxPoint x="1680" y="1410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -60,6 +60,12 @@
         </mxCell>
         <mxCell id="01SrSEuu2r-TH4prvu8M-16" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-660" y="1050" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01SrSEuu2r-TH4prvu8M-17" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="810" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01SrSEuu2r-TH4prvu8M-18" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="400" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
