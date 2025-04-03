@@ -17,7 +17,7 @@
           <mxGeometry x="800" y="504" width="360" height="113" as="geometry" />
         </mxCell>
         <mxCell id="u-Zc_Qn_AIVrXr-7xIsA-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;navigate_to_pose_action NavigateToPoseAction类&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;BtActionNode的派生类，重写了on_tick函数和providedPorts函数，on_tick函数获取了goal中的目标点信息和behavior_tree XML文件名；&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;providedPorts函数则设置了上述的两个inputPort。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="700" height="180" as="geometry" />
+          <mxGeometry x="40" y="640" width="510" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
