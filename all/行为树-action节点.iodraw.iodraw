@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.7.17">
   <diagram name="第 1 页" id="2HKZMpkn9vhKHPOenr94">
-    <mxGraphModel dx="1436" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#f6f5f4" math="0" shadow="0">
+    <mxGraphModel dx="2480" dy="1445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#f6f5f4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="u-Zc_Qn_AIVrXr-7xIsA-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;navigate_to_pose_action NavigateToPoseAction类&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;BtActionNode的派生类，重写了on_tick函数和providedPorts函数，on_tick函数获取了goal中的目标点信息和behavior_tree XML文件名；&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;providedPorts函数则设置了上述的两个inputPort。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="640" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u-Zc_Qn_AIVrXr-7xIsA-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;行为树节点注册&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="560" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
