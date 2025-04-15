@@ -1,1 +1,1 @@
-{"root":{"data":{"id":"d96sed7l41ds","created":1744677052582,"text":"nav2_behavior_tree"},"children":[{"data":{"id":"d96t93e52qdc","created":1744679460501,"text":"分支主题","layout":null},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43"}
+{"root":{"data":{"id":"d96sed7l41ds","created":1744677052582,"text":"nav2_behavior_tree"},"children":[{"data":{"id":"d96t93e52qdc","created":1744679460501,"text":"bt_action_node","layout":null,"note":"j"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43"}
