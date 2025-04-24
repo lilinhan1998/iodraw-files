@@ -10,10 +10,10 @@
         <mxCell id="DSHIJ8_aCnBJfViRmLsG-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;将起始节点放入openlist中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="267" y="135" width="236" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="DSHIJ8_aCnBJfViRmLsG-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;openlist是否为空&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DSHIJ8_aCnBJfViRmLsG-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;openlist&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;是否为空&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="316.5" y="230" width="137" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DSHIJ8_aCnBJfViRmLsG-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DSHIJ8_aCnBJfViRmLsG-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将openlist中F值最小的节点从openlist中移出，放入closelist中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="267" y="366" width="236" height="34" as="geometry" />
         </mxCell>
         <mxCell id="DSHIJ8_aCnBJfViRmLsG-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
