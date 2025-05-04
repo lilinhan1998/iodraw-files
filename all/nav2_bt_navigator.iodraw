@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="24.7.17">
   <diagram name="第 1 页" id="tff7HQ_WmHDC0ZlMoCYw">
-    <mxGraphModel dx="5752" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3460" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="CUffB87nHC0gVbK86QkS-1" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;navigate_to_pose实现的主要功能：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;1、configure函数，创建navigate_to_pose类型的客户端，并订阅目标点，拿到目标点客户端直接在回调函数发送请求；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2、接收目标，在&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;bt_action_server中加载行为树，&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;顺势&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;将目标其写入黑板中；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;3、实现对action数据中的feedback的处理和发布，实现对抢占目标点的处理，这两个功能会在&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;bt_action_server中使用到。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-40" y="1910" width="640" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CUffB87nHC0gVbK86QkS-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;BtActionServer类，一方面创建导航（navigate_to_pose）服务器，另一方面使用BehaviorTreeEngine创建行为树，在服务器的执行函数中执行行为树。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="940" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
