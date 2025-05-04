@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="24.7.17">
   <diagram name="第 1 页" id="tff7HQ_WmHDC0ZlMoCYw">
-    <mxGraphModel dx="3460" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2506" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry x="-710" y="80" width="640" height="140" as="geometry" />
         </mxCell>
         <mxCell id="lkIEVcZxB2ymnv6hTWMd-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;实现了导航任务互斥锁的功能，确保同一时间只有一个导航插件可以处于活动状态。防止多个导航插件同时执行任务（例如 NavigateToPose 和 FollowPath 同时运行）。&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;使用这个类的原因是会出现有两个导航器同时运行的可能&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="90" width="640" height="140" as="geometry" />
+          <mxGeometry x="-710" y="1750" width="930" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
