@@ -8,10 +8,19 @@
           <mxGeometry x="269" y="20" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wq6vCmOI_IxgS53FLMPm-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="292.75" y="-123.75" width="50" height="397.5" as="geometry" />
+          <mxGeometry x="389" y="-123.75" width="50" height="397.5" as="geometry" />
         </mxCell>
         <mxCell id="wq6vCmOI_IxgS53FLMPm-3" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;规划器初始化，History_PathIndex_会插入一个-1（last_point）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="230" width="240" height="60" as="geometry" />
+          <mxGeometry x="90" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-6" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;不需要初始化，last_point直接取History_PathIndex_末尾的元素&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389" y="-13" width="50" height="397.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-8" value="绕障轨迹不为空，会根据last_point的状态执行不同的轨迹填充函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="186" y="213.75" width="456" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
