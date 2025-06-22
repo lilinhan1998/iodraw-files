@@ -19,8 +19,11 @@
         <mxCell id="wq6vCmOI_IxgS53FLMPm-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="389" y="-13" width="50" height="397.5" as="geometry" />
         </mxCell>
-        <mxCell id="wq6vCmOI_IxgS53FLMPm-8" value="绕障轨迹不为空，会根据last_point的状态执行不同的轨迹填充函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="186" y="213.75" width="456" height="60" as="geometry" />
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;绕障轨迹不为空，会根据last_point的状态执行不同的轨迹填充函数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="186" y="210.75" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;绕障轨迹不为空，会根据last_point的状态执行不同的轨迹填充函数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="186" y="340" width="456" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
