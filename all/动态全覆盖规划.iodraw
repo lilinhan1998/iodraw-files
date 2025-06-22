@@ -1,0 +1,37 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1604" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-0" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;tick_coverage_planner&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="269" y="20" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389" y="-123.75" width="50" height="397.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-3" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;规划器初始化，History_PathIndex_会插入一个-1（last_point）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-6" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;不需要初始化，last_point直接取History_PathIndex_末尾的元素&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389" y="-13" width="50" height="397.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wq6vCmOI_IxgS53FLMPm-8" target="wq6vCmOI_IxgS53FLMPm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;如果绕障轨迹不为空，会根据last_point的状态执行不同的轨迹填充函数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="186" y="210.75" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-9" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;根据last_point的状态执行不同的轨迹填充函数，如果是规划器初始化阶段，会选择清空&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;History_PathIndex_集合，反之会在清扫地图上填充&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;History_PathIndex_中最后一个元素（刚走完的轨迹）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="186" y="319" width="456" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
