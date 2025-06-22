@@ -43,8 +43,8 @@
         <mxCell id="wq6vCmOI_IxgS53FLMPm-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;判断清扫起点的状态，根据不同的状态要调整初始点的位置和状态&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270.5" y="550" width="287" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wq6vCmOI_IxgS53FLMPm-16" value="开始进行划线规划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="269" y="630" width="287" height="60" as="geometry" />
+        <mxCell id="wq6vCmOI_IxgS53FLMPm-16" value="&lt;div&gt;开始进行划线规划&lt;/div&gt;&lt;div&gt;1、先进行长边规划，再进行短边规划；&lt;/div&gt;&lt;div&gt;2、局部规划结束后（进入local_finish状态），判断并搜索得到下一个清扫区域的起点，如果再搜不到，说明该房间清扫完成。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="228" y="630" width="371" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
